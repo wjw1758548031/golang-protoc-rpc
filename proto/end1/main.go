@@ -16,6 +16,8 @@ type helloWorldClient struct {
 }
 
 //执行命令 protoc --proto_path= D:\goprj\src\proto\models\hello_world.proto  --micro_out=.  --go_out=. -I D:\goprj\src\proto\
+//protoc --proto_path= --micro_out=. --go_out=. pay.proto  执行当前目录下的pay,并且在当前目录生成
+
 
 func main(){
 
